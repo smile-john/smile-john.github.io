@@ -2833,7 +2833,7 @@ p.center {
     grid-row: 2;
     z-index: 1;
     max-width: 100%;
-    margin-top: 175px !important;
+    margin-top: 200px !important;
   }
 
   .timeline .template-1 .image-4, .timeline .template-2 .image-4 {
@@ -2843,7 +2843,7 @@ p.center {
     padding-top: 0;
     z-index: 1;
     max-width: 100%;
-    margin-top: 215px !important;
+    margin-top: 245px !important;
   }
 
 }
@@ -6422,7 +6422,7 @@ textarea.form-control {
   }
 
   .gallery-scroller li {
-    height: 250px;
+    /* height: 250px; */
     width: 250px
   }
 
