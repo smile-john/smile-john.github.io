@@ -432,7 +432,7 @@ var Neela;
 				var e = u(this);
 				if (e.parent().is(":first-child") && !u(">.divider-about-us", e.closest(".row")).hasClass("flip")) return !1;
 				e.hasClass("flip") || ((u("#about-us .element .image.flip").length ? u("#about-us .element .image") : e).toggleClass("flip"), u(">.divider-about-us", e.closest(".row")).toggleClass("flip"))
-			}), u("#map_canvas").on("mouseenter", function() {
+			}), u("#map_canvas, #map").on("mouseenter", function() {
 				u(".location-info").addClass("open")
 			}).on("mouseleave", function() {
 				u(".location-info").removeClass("open")

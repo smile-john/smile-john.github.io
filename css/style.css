@@ -3426,7 +3426,7 @@ p.center {
 .map-info-container .info-wrapper .location-info {
   background-color: #8eaeba;
   border: 10px solid #fff;
-  padding: 30px;
+  padding: 0px;
   display: inline-block;
   position: relative;
   z-index: 10;
@@ -3532,11 +3532,11 @@ p.center {
 }
 
 .map-info-container .location-info.open {
-  -webkit-transform: translateX(-25%);
-  -moz-transform: translateX(-25%);
-  -ms-transform: translateX(-25%);
-  -o-transform: translateX(-25%);
-  transform: translateX(-25%)
+  -webkit-transform: translateX(-40%);
+  -moz-transform: translateX(-40%);
+  -ms-transform: translateX(-40%);
+  -o-transform: translateX(-40%);
+  transform: translateX(-40%)
 }
 
 #map_canvas {
@@ -4201,7 +4201,7 @@ section.side-flowers {
   display: inline-block;
   position: relative;
   width: 380px;
-  height: 380px;
+  /* height: 380px; */
   overflow: hidden;
   padding: 0;
   margin: -5px -3px 0 0;
@@ -6092,7 +6092,8 @@ textarea.form-control {
 }
 
 .lb-data .lb-close::before {
-  content: ""
+  /* content: "" */
+  content: "X"
 }
 
 .lb-data .lb-close:hover {
