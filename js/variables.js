@@ -16,11 +16,11 @@ var hero_full_screen = true;                    //If true, the hero section will
 
 //HERO BACKGROUND SLIDESHOW IMAGES
 var slidehow_images = [
-    "images/custom/0018_KAI04483.jpg",
-    "images/custom/0005_JJ024088.jpg",
-    "images/custom/0020_KAI05299.jpg",
-    "images/custom/0013_KAI03975.jpg",
-    "images/custom/0010_JJ024406.jpg"
+    "images/custom/resize/0018_KAI04483.jpg",
+    "images/custom/resize/0005_JJ024088.jpg",
+    "images/custom/resize/0020_KAI05299.jpg",
+    "images/custom/resize/0013_KAI03975.jpg",
+    "images/custom/resize/0010_JJ024406.jpg"
 ];
 
 //TIMELINE PARALLAX
